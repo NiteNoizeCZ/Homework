@@ -1,1 +1,1 @@
-# NNCZ
+# zde se nachází úkoly
