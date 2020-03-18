@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+}
+.inputs{
+    margin: 1rem 5rem 1rem;
+    padding: 1rem;
+    background-color: rgb(97, 97, 97);
+    text-align: center;
+    border-radius: 5px;
+    border: white solid 10px;
+}
+.php{
+    margin: 1rem 5rem 1rem;
+    padding: 1rem;
+    background-color: rgb(97, 97, 97);
+    text-align: center;
+    border-radius: 5px; 
+    border: white solid 10px;
+}
