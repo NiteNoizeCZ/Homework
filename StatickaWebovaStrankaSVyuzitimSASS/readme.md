@@ -47,5 +47,5 @@ v tomto projektu jsem se snažil využívat responzivity a funkčního menu. Zá
 ![pg3html](img/pg3html.png)
 ### CSS
 ![pg3](img/pg3.png)
-![pg3(1)](img/pg(1).png)
+![pg3(1)](img/pg3(1).png)
 ![pg3(2)](img/pg3(2).png)
