@@ -28,6 +28,8 @@ v tomto projektu jsem se snažil využívat responzivity a funkčního menu. Zá
 ![main](img/main.png)
 ![main2](img/main2.png)
 ![main3](img/main3.png)
+### Funkce
+![functions](img/functions.png)
 ### Jak postupovat HTML
 ![pg1html](img/pg1html.png)
 ![pg1(1)html](img/pg1(1)html.png)
