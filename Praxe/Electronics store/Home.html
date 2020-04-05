@@ -1,0 +1,318 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <!-- Metadata -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- link na soubory CSS a Javaskript (javaskript je zde zakomponován pouze jako do budoucna.. ve skutečnosti ho zde nevyužíváme) -->
+        <link href="CSS/Style.css" rel="stylesheet" />
+        <script src="Js/jquery-3.2.1.min.js"></script>
+        <!-- importování fontu, který bude využit v CSS v třídě s názvem ,,menuitem" -->
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster+Two|Pacifico');
+        </style>
+    </head>
+<body>
+    <!-- hlavní část stránky, její výplň, postraní menu, seznam produktů a tak dále -->
+    <section>
+        <!-- tento div s třídou ,,section1" v sobě nese celou postraní lištu.-->
+        <div class="section1">
+            <!-- logo naší webové stránky -->
+            <img src="Images/Website_Logo.png" class="logo" />
+            <!-- div s třínou ,,navigation" je jakýsi header našehí postraní lišty s kategoriemi.  -->
+            <div class="navigation">
+                <img src="Images/if_List_Text_Menu_Numbers_String_Burger_1329080.png" class="toggle" />
+                <a class="cgr" >Kategorie</a>
+            </div>
+            <!-- V tomto divu jsou umístěné všechny kategorie. -->
+            <div>
+                <a class="submenu" >Sluchátka</a>
+                <a class="submenu">Konzole</a>
+                <a class="submenu">Mobilní a dotykové telefony</a>
+                <a class="submenu">Domácí ochrana</a>
+                <a class="submenu">Kamery</a>
+                <a class="submenu">Domácí kina</a>
+                <a class="submenu">Televize</a>
+                <a class="submenu">Počítače</a>
+                <a class="submenu">Hry,Filmy,Muzika</a>
+                <a class="submenu">Ostatní</a>
+                <a class="submenu">Kancelářské potřeby</a>
+                <a class="submenu">Elektonika do domácnosti</a>
+            </div>
+            <p class="para1">Výprodej</p>
+            <!-- zde mlžete vidět postranní nabídky zlevněného zboží. -->
+            <div class="Special">
+
+                <fieldset>
+                    <legend>Sleva</legend>
+                    <div class="div1">
+                        <img src="Images/Philips_Trimmers.png" class="img1" />
+                    </div>
+                    <div class="div2">
+                        <h3>$24.34<strike>$25.63</strike></h3>
+                        <p> Philips QT4000 Zažijte Pánský strnicový zastřihovač 44DJH62</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sleva</legend>
+                    <div class="div1">
+                        <img src="Images/y37-high-figure.png" class="img1" />
+                    </div>
+                    <div class="div2">
+                        <h3>$399<strike>$402.30</strike></h3>
+                        <p>vivo Xshot 5,2 palce 4G Android 4.2 Čtyřjádrový 2,3 GHz RAM 2 GB ROM 16 GB</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sleva</legend>
+                    <div class="div1">
+                        <img src="Images/cruzer-force-usb-flash-drive-250x250.png" class="img1" />
+                    </div>
+                    <div class="div2">
+                        <h3>$16<strike>$18</strike></h3>
+                        <p>SanDisk Cruzer Force 64 GB USB Flash Drive USB 2.0</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sleva</legend>
+                    <div class="div1">
+                        <img src="Images/Canon-EF-24-105mm-f-4L-IS-II-USM-Side_tcm14-1451451.png" class="img1" />
+                    </div>
+                    <div class="div2">
+                        <h3>$133.89<strike>$134.16</strike></h3>
+                        <p>Canon EF 75-300mm f/4.0-5.6 III Lens</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sleva</legend>
+                    <div class="div1">
+                        <img src="Images/bag2.png" class="img1" />
+                    </div>
+                    <div class="div2">
+                        <h3>$14.92<strike></strike></h3>
+                        <p>PZJ® Galaxy Backpack, Unisex Galaxy Pattern Canvas</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sleva</legend>
+                    <div class="div1">
+                        <img src="Images/images.jpg" class="img1" />
+                    </div>
+                    <div class="div2">
+                        <h3>$1.89<strike>$2</strike></h3>
+                        <p> The Mistake: Nepřekonatelný psychologický thriller</p>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sleva</legend>
+                    <div class="div1">
+                        <img src="Images/Hand-Blender-Mixer-PNG-Image1.png" class="img1" />
+                    </div>
+                    <div class="div2">
+                        <h3>$8.49<strike>$9</strike></h3>
+                        <p> Ruční mixér Elgento E12009, 170 W - bílý</p>
+                    </div>
+                </fieldset>
+            </div>
+
+        </div>
+
+        <!-- Tento div s třídou ,,section2" v sobě nese celýprostředek stránky. ( i celý vrchní menu + vyhledávání ) -->
+        <div class="section2">
+            <!-- kolonka na vyhledávání -->
+            <input type="text" placeholder="search" class="txtsrch" />
+            <button type="button" class="btnsrch">Search</button>
+
+            <img src="Images/if_call_322424.png" class="call-icon" />
+            <span class="tel-no">777 345 449</span>
+
+            <!-- menu našeho obchodu. ,,rozcestník" -->
+            <nav>
+                <a class="menuitem" >Domů</a>
+                <a class="menuitem">Seznam přání</a>
+                <a class="menuitem">Můj profil</a>
+                <a class="menuitem">Nákupní košík</a>
+                <a class="menuitem">Kotnrola</a>
+                <a class="menuitem">Předměty</a>
+            </nav>
+            <!-- Zde je pohybující se menu s fotkami produktů. (časem by se zde k obrázkům mohl i přidělat popis produktu...) -->
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide1">
+                        <img src="Images/4-2-iphone-png-picture-png-image.png" class="img1" />
+                    </div>
+                    <div class="slide1">
+                        <img src="Images/2-2-iphone-png-picture.png" class="img2" />
+                    </div>
+                    <div class="slide1">
+                        <img src="Images/1-2-iphone-png-picture-png-clipart.png" class="img3" />
+                    </div>
+                    <div class="constant">
+                        <h1>iPhone 7</h1>
+                        <p>Konfortní a vysoce kvalitní telefon za super cenu.</p>
+
+                        <a class="btnshopnow">Zakupte hned!</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doporučení na určitou kategoriii produktů. -->
+            <div class="content1">
+                <div class="innertitle1">
+                    <h3>Domácí kino a televize</h3>
+                    <p class="para1">Veliký vyběr domácích kin a televizí .</p>
+                    <br />
+                    <p class="para1">Zakupte hned!</p>
+                </div>
+
+                <div class="innertitle2">
+                    <h3>Domácí elektorinka</h3>
+                    <p class="para1">Konfortní a veliký vyběr všech domácích pomocníků na trhu.</p>
+                    <br />
+                    <p class="para1">Zakupte hned!</p>
+                </div>
+
+                <div class="inner1">
+                    <img src="Images/Home_Theaters.png" class="img1" />
+                </div>
+                <div class="inner2">
+                    <img src="Images/Black_Vacuum_Cleaner_PNG_Clipart-629.png" class="img2" />
+                </div>
+            </div>
+            <!-- nadpis pro určitý stav nějakého zboží -->
+            <p class="featuredpara">Nové&nbsp;zboží</p>
+            <!-- div s produkty daného stavu zboží -->
+            <div class="products">
+                <fieldset class="col1">
+                    <legend>Nové</legend>
+                    <img src="Images/Laptop.png" class="img1" />
+                    <h3>$184.78<strike>$192.45</strike></h3>
+                    <h4>Notebook Apple MacBook Pro 13-palcový (Intel Dual-Core i5 2,4 GHz, 4 GB RAM, 500 GB HDD, Intel HD, OS X) - Stříbrný - 2011</h4>
+                    <p>Nejrychlejší dvoujádrový procesor k dispozici Thunderbolt technologie FaceTime HD kamera Dlouhodobá baterie ...</p>
+                </fieldset>
+
+                <fieldset class="col2">
+                    <legend>Nové</legend>
+                    <img src="Images/Canon_Camera.png" class="img1" />
+                    <h3>$636.21<strike>$642.45</strike></h3>
+                    <h4>Digitální zrcadlovka Canon EOS 200D s EF-S 18 - 55 mm f / 4-5,6 IS</h4>
+                    <p> 24,2 megapixelový snímač CMOS pro fotografie bohaté na detaily a barvy a vypadající přímo z fotoaparátu. Nepřetržité fotografování až 5 FTP ...</p>
+                </fieldset>
+
+                <fieldset class="col3" >
+                    <legend>Nové</legend>
+                    <img src="Images/38_Printers.png" class="img1" />
+                    <h3>$49.41<strike>$50.31</strike></h3>
+                    <h4>Tiskárna HP Envy 4527 vše-v-jednom, okamžitý inkoust kompatibilní se zkušební dobou 4 měsíce</h4>
+                    <p>Tiskněte, skenujte nebo kopírujte rychle a snadno s displejem 2,2 palce (5,5 cm) - jednoduše se dotkněte ...</p>
+                </fieldset>
+            </div>
+
+            <!-- nadpis pro určitý stav nějakého zboží -->
+            <p class="featuredpara">Doporučené</p>
+            <!-- div s produkty daného stavu zboží -->
+            <div class="products">
+                <fieldset class="col1">
+                    <legend>Horká nabídka</legend>
+                    <img src="Images/1_VR.png" class="img1" />
+                    <h3>$29.99<strike>$31.34</strike></h3>
+                    <h4>Náhlavní souprava DESTEK V4 VR, 103 ° FOV, Sluchátka HD Virtual Reality Headset s ochranou očí, dotykové tlačítko / spouště pro iPhone</h4>
+                    <p>Oblečte si převodovku VR a přejděte od zážitků z první řady k dobrodružstvím, o kterých jste jen snili .</p>
+                </fieldset>
+
+                <fieldset class="col2">
+                    <legend>Horká nabídka</legend>
+                    <img src="Images/434_Refrigerator.png" class="img1" />
+                    <h3>$1042.97<strike>$1049.93</strike></h3>
+                    <h4>Samsung RS7567BHCSL H-série Lednička s mrazničkou s ledem a vodou Inox ocelové dveře</h4>
+                    <p> Při dodání a odeslání společností Amazon je pro tuto položku k dispozici speciální dodávka pro velké položky...</p>
+                </fieldset>
+
+                <fieldset class="col3">
+                    <legend>Horká nabídka</legend>
+                    <img src="Images/3_Iron.png" class="img1" />
+                    <h3>$28.71<strike>$35.31</strike></h3>
+                    <h4> Russell Hobbs Steamglide Professional 2600W Napařovací žehlička 21370 - modrá a černá</h4>
+                    <p>2600 wattů vám poskytuje rychlý zahřívací čas a větší sílu pro výkon v boji proti záhybům ...</p>
+                </fieldset>
+            </div>
+            <!-- div s produkty daného stavu zboží -->
+            <div class="products" style="margin-top:3vh;">
+                <fieldset class="col1">
+                    <legend>Horká nabídka</legend>
+                    <img src="Images/83_Spekers.png" class="img1" />
+                    <h3>$120.45<strike>$122.47</strike></h3>
+                    <h4>LG LOUDR LHB645N Reproduktorový systém pro domácí kino - černý</h4>
+                    
+                </fieldset>
+
+                <fieldset class="col2">
+                    <legend>Horká nabídka</legend>
+                    <img src="Images/53_Drone.png" class="img1" />
+                    <h3>$449.12<strike>$559.23</strike></h3>
+                    <h4>DJI CP.PT.000167 Phantom 3 Standard Drone</h4>
+                    <p>ohromující videa ve vysokém rozlišení 2,7 kB a 12 megapixelových fotografií s integrovaným anténním fotoaparátem. Stabilní záběry ...</p>
+                </fieldset>
+
+                <fieldset class="col3">
+                    <legend>Horká nabídka</legend>
+                    <img src="Images/6-video-camera-png-image.png" class="img1" />
+                    <h3>$239.59<strike>$259.81</strike></h3>
+                    <h4>Videokamera Sony HDR-PJ410 s plným HD a vestavěným projektorem (30x optický zoom, optický stabilizátor SteadyShot, Wi-Fi a NFC</h4>
+                   
+                </fieldset>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="background"></div>
+    <!-- Div obsahující "patičku" stránky-->
+    <div class="footer">
+
+        <div class="outer">
+            <div class="inner">
+                <h4>Informace</h4>
+                <a>o shopu</a>
+                <a>informace o doučení</a>
+                <a>Zásady ochrany osobních udajů</a>
+                <a>Podmínky</a>
+            </div>
+            <div class="inner2">
+                <h4>Informace o nákladech</h4>
+                <a>Kontakt</a>
+                <a>Zpět</a>
+                <a>Mapa stránek</a>
+            </div>
+            <div class="inner">
+                <h4>Můj profil</h4>
+                <a>Ostatní historie</a>
+                <a>Seznam přání</a>
+                <a>novinky</a>
+            </div>
+            <div class="inner2">
+                <h4>Sleduj te mě</h4>
+                <a>Facebook</a>
+                <a>Twitter</a>
+                <a>Google +</a>
+                <a>Youtube</a>
+            </div>
+        </div>
+
+        <hr />
+        <!-- copyright -->
+        <div class="copyright">
+            <span>Vytvořil Dominik Tichý, Michael Petro, Jakub Čapek </span>
+        </div>
+
+    </div>
+
+</body>
+</html>
