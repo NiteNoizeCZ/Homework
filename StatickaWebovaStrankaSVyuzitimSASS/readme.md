@@ -31,7 +31,6 @@ v tomto projektu jsem se snažil využívat responzivity a funkčního menu. Zá
 ### Jak postupovat HTML
 ![pg1html](img/pg1html.png)
 ![pg1(1)html](img/pg1(1)html.png)
-![pg1(2)html](img/pg1(2)html.png)
 ### CSS
 ![pg1](img/pg1.png)
 ![pg1(1)](img/pg1(1).png)
