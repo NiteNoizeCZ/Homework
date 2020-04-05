@@ -1,6 +1,6 @@
 # Jednostránkový web na obchod s eletronikou
 detailnější popis webu lze najít zde -> [Dokumentace](docs/documentation.pdf)
-##Autoři toho projetku jsou
+## Autoři toho projetku jsou
 - Jakub Čapek
 - Michael Petro
 - Dominik Tichý
