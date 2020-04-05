@@ -1,0 +1,15 @@
+$colors: (
+    primary: rgb(25, 0, 83),
+);
+$padding: 15px;
+$borders: 15px;
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+$mobile: 980px;
+@mixin mobile {
+    @media (max-width: #{$mobile}) {
+        @content;
+    }
+}
