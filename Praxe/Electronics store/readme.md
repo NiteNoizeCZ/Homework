@@ -10,6 +10,7 @@ detailnější popis webu lze najít zde -> [Dokumentace](docs/documentation.pdf
 - [ ] responzivita
 - [ ] více stránek k prohlížení
 ## Zde je ukázka stránky v rozlišení 1366x768
+![scr0.png](img/scr0.png)
 ![scr1.png](img/scr1.png)
 ![scr2.png](img/scr2.png)
 ![scr3.png](img/scr3.png)
