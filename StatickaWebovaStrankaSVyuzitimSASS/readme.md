@@ -3,23 +3,23 @@ v tomto projektu jsem se snažil využívat responzivity a funkčního menu. Zá
 ## Screenshoty samotné stránky
 ### hlavní stránka
 ![page1](img/page1.png)
-mobilní verze
+#### mobilní verze
 ![page1m](img/page1m.png)
 ### Jak postupovat
 ![page2](img/page2.png)
 ![page2(1)](img/page2(1).png)
-mobilní verze
+#### mobilní verze
 ![page2m](img/page2m.png)
 ![page2(1)m](img/page2(1)m.png)
 ![page2(2)m](img/page2(2)m.png)
 ### možné příznaky
 ![page3](img/page3.png)
-mobilní verze
+#### mobilní verze
 ![page3m](img/page3m.png)
 ![page3(1)m](img/page3(1)m.png)
 ### informace
 ![page4](img/page4.png)
-mobilní verze
+#### mobilní verze
 ![page4m](img/page4m.png)
 ## Screenshoty zdrojových kódů
 ### Hlavní stránka HTML
