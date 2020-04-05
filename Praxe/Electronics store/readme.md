@@ -14,7 +14,7 @@ detailnější popis webu lze najít zde -> [Dokumentace](docs/documentation.pdf
 ![scr1.png](img/scr1.png)
 ![scr2.png](img/scr2.png)
 ![scr3.png](img/scr3.png)
-## Zdrojový kód
+## Zdrojový kód v HTML
 ![code1.png](img/code1.png)
 ![code2.png](img/code2.png)
 ![code3.png](img/code3.png)
