@@ -16,7 +16,7 @@ Tato práce je dělaná podle reálné předlohy našeho bytu. Zároveň jsem si
 - Satelitní parabola = 1000Kč
 - Anténa se zesilovačem = 1700Kč
 ## kabeláž:
-- UTP kabel RJ45 kat.6 50m = 700Kč
+- UTP kabel RJ45 kat.6 5m = 110Kč
 - Audio kabel + optický 10m = 130Kč
 - Koaxiální kabel = 225Kč
 ### celková cena:
