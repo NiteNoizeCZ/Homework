@@ -20,4 +20,4 @@ Tato práce je dělaná podle reálné předlohy našeho bytu. Zároveň jsem si
 - Audio kabel + optický 10m = 130Kč
 - Koaxiální kabel = 225Kč
 ### celková cena:
-**61634Kč**
+**60819Kč**
